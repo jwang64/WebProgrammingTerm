@@ -1,6 +1,10 @@
 package database;
 import java.sql.*;
 import java.util.*;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.PreparedStatement;
+
 import java.io.*;
 
 import entity.User;
